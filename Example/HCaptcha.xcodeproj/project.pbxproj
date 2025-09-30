@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392544DA2E8B9ED6004557DA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392544D92E8B9ED6004557DA /* BaseViewController.swift */; };
+		392544DB2E8B9ED6004557DA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392544D92E8B9ED6004557DA /* BaseViewController.swift */; };
+		392544DC2E8B9ED6004557DA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392544D92E8B9ED6004557DA /* BaseViewController.swift */; };
+		392544DD2E8B9ED6004557DA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392544D92E8B9ED6004557DA /* BaseViewController.swift */; };
+		392544E62E8B9F4F004557DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392544E02E8B9F4F004557DA /* Assets.xcassets */; };
+		392544E72E8B9F4F004557DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392544E42E8B9F4F004557DA /* Main.storyboard */; };
+		392544E82E8B9F4F004557DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392544E22E8B9F4F004557DA /* LaunchScreen.xib */; };
+		392544E92E8B9F4F004557DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392544DF2E8B9F4F004557DA /* AppDelegate.swift */; };
+		392544EA2E8B9F4F004557DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392544E02E8B9F4F004557DA /* Assets.xcassets */; };
+		392544EB2E8B9F4F004557DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392544E42E8B9F4F004557DA /* Main.storyboard */; };
+		392544EC2E8B9F4F004557DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392544E22E8B9F4F004557DA /* LaunchScreen.xib */; };
+		392544ED2E8B9F4F004557DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392544DF2E8B9F4F004557DA /* AppDelegate.swift */; };
+		392544EE2E8B9F4F004557DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392544DF2E8B9F4F004557DA /* AppDelegate.swift */; };
+		392544EF2E8B9F4F004557DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392544E02E8B9F4F004557DA /* Assets.xcassets */; };
+		392544F02E8B9F4F004557DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392544E42E8B9F4F004557DA /* Main.storyboard */; };
+		392544F12E8B9F4F004557DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392544E22E8B9F4F004557DA /* LaunchScreen.xib */; };
+		392544F32E8B9F66004557DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 392544F22E8B9F66004557DA /* Info.plist */; };
+		392544F42E8B9F66004557DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 392544F22E8B9F66004557DA /* Info.plist */; };
+		392544F52E8B9F66004557DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 392544F22E8B9F66004557DA /* Info.plist */; };
 		43C25BC32E3FC51600AB0A36 /* TestTimeouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25BC22E3FC51600AB0A36 /* TestTimeouts.swift */; };
 		43C25BC42E3FC51600AB0A36 /* TestTimeouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C25BC22E3FC51600AB0A36 /* TestTimeouts.swift */; };
 		50AC78913CD85915C922C6E7 /* Pods_HCaptcha_RxSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A23EFF913417B4D093248E /* Pods_HCaptcha_RxSwift_Example.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDD1AFB9204008FA782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Assets.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		9C5125BE26CB9A3A0094B023 /* HCaptchaWebViewManager__HTML__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5125BD26CB9A3A0094B023 /* HCaptchaWebViewManager__HTML__Tests.swift */; };
 		9C766C7926CB814A00E0A592 /* HCaptchaConfig+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C766C7826CB814A00E0A592 /* HCaptchaConfig+Helpers.swift */; };
 		9D974807F9A78F46BA2DF507 /* Pods_HCaptcha_UIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D10E8098B5018907486C310 /* Pods_HCaptcha_UIKit_Example.framework */; };
@@ -27,25 +42,13 @@
 		E65145EC2779AE830079668A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E65145EB2779AE830079668A /* AppDelegate.m */; };
 		E65145F22779AE830079668A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65145F12779AE830079668A /* ViewController.m */; };
 		E65145FD2779AE850079668A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E65145FC2779AE850079668A /* main.m */; };
-		E651460C2779E9D30079668A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		E651460F277A09C20079668A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65146042779E5380079668A /* Main.storyboard */; };
-		E6514610277A09C60079668A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		E6586CCF2893DBCA0051EFE7 /* HCaptcha in Frameworks */ = {isa = PBXBuildFile; productRef = E6586CCE2893DBCA0051EFE7 /* HCaptcha */; };
 		E68790E12DF8C60900F2A70F /* TestURLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68790E02DF8C60900F2A70F /* TestURLOpener.swift */; };
 		E6A23A0E2CEA1AC50071D531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A23A0C2CEA1AC50071D531 /* ViewController.swift */; };
-		E6A23A192CEA22190071D531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		E6A23A1A2CEA29F40071D531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Assets.xcassets */; };
-		E6A23A1B2CEA29FC0071D531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		E6A23A2C2CEA3AEA0071D531 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		E6A23A2D2CEA48BA0071D531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Assets.xcassets */; };
-		E6A23A2E2CEA48C90071D531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Assets.xcassets */; };
 		E6A23A4D2CEA6DA70071D531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A23A4A2CEA6DA70071D531 /* ContentView.swift */; };
 		E6A23A4E2CEA6DA70071D531 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A23A4B2CEA6DA70071D531 /* App.swift */; };
-		E6A23A512CEA6DDB0071D531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Assets.xcassets */; };
 		E6A23A532CEA73790071D531 /* HCaptcha in Frameworks */ = {isa = PBXBuildFile; productRef = E6A23A522CEA73790071D531 /* HCaptcha */; };
-		E6A23A552CEA784A0071D531 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A23A542CEA78430071D531 /* BaseViewController.swift */; };
-		E6A23A562CEA784A0071D531 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A23A542CEA78430071D531 /* BaseViewController.swift */; };
-		F206BAD51F8D3FEB00A25807 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = F206BAD41F8D3FEB00A25807 /* Cartfile */; };
 		F231B3971FEC325A00F82943 /* DispatchQueue__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231B3961FEC325A00F82943 /* DispatchQueue__Tests.swift */; };
 		F231B39F1FED4A8C00F82943 /* HCaptchaDecoder+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231B39E1FED4A8C00F82943 /* HCaptchaDecoder+Helper.swift */; };
 		F288E9451F9537760018688D /* HCaptchaError+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F288E9441F9537760018688D /* HCaptchaError+Equatable.swift */; };
@@ -55,7 +58,6 @@
 		F2ECCF8A1E9FCEFE0097B199 /* HCaptchaDecoder__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ECCF891E9FCEFE0097B199 /* HCaptchaDecoder__Tests.swift */; };
 		F2ECCF8C1E9FE37C0097B199 /* mock.html in Resources */ = {isa = PBXBuildFile; fileRef = F2ECCF8B1E9FE37C0097B199 /* mock.html */; };
 		F2ECCF8E1E9FE68C0097B199 /* HCaptchaWebViewManager__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ECCF8D1E9FE68C0097B199 /* HCaptchaWebViewManager__Tests.swift */; };
-		F2ECCF931EA009360097B199 /* HCaptcha+Rx__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ECCF921EA009360097B199 /* HCaptcha+Rx__Tests.swift */; };
 		F2ECCF961EA00A5B0097B199 /* HCaptchaWebViewManager+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ECCF951EA00A5B0097B199 /* HCaptchaWebViewManager+Helpers.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,32 +94,23 @@
 
 /* Begin PBXFileReference section */
 		017D19A07C4B630ECD839F7C /* Pods_HCaptcha_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCaptcha_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		086C3E9D592A52524FB6CA89 /* Pods-HCaptcha_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_UITests.release.xcconfig"; path = "Target Support Files/Pods-HCaptcha_UITests/Pods-HCaptcha_UITests.release.xcconfig"; sourceTree = "<group>"; };
 		0A2D0E5B4C6E445BF971488B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		15BC45B776D109210F2FC581 /* Pods-HCaptcha_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_Tests.release.xcconfig"; path = "Target Support Files/Pods-HCaptcha_Tests/Pods-HCaptcha_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		15CF87684AC2F129E32CC71E /* Pods-HCaptcha_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_Example.debug.xcconfig"; path = "Target Support Files/Pods-HCaptcha_Example/Pods-HCaptcha_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1CF662E463D56A0421D8A84A /* Pods-HCaptcha_RxSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_RxSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-HCaptcha_RxSwift_Example/Pods-HCaptcha_RxSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		392544D92E8B9ED6004557DA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		392544DE2E8B9ED8004557DA /* HCaptcha_Objc_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HCaptcha_Objc_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		392544DF2E8B9F4F004557DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		392544E02E8B9F4F004557DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		392544E12E8B9F4F004557DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		392544E32E8B9F4F004557DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		392544F22E8B9F66004557DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43C25BC22E3FC51600AB0A36 /* TestTimeouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTimeouts.swift; sourceTree = "<group>"; };
 		4D10E8098B5018907486C310 /* Pods_HCaptcha_UIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCaptcha_UIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* HCaptcha_RxSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCaptcha_RxSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		62C1DD0E80E9920845E5DA51 /* HCaptcha.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HCaptcha.podspec; path = ../HCaptcha.podspec; sourceTree = "<group>"; };
-		7CAE52D12DDE8FC56C961E7D /* Pods-HCaptcha_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_Example.release.xcconfig"; path = "Target Support Files/Pods-HCaptcha_Example/Pods-HCaptcha_Example.release.xcconfig"; sourceTree = "<group>"; };
 		81A23EFF913417B4D093248E /* Pods_HCaptcha_RxSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCaptcha_RxSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8352086EA5EE39AFD3CDA308 /* Pods_HCaptcha_Objc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCaptcha_Objc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8453AB7DC2F84E620BCFA704 /* Pods-HCaptcha_Objc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_Objc_Example.release.xcconfig"; path = "Target Support Files/Pods-HCaptcha_Objc_Example/Pods-HCaptcha_Objc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C5125BD26CB9A3A0094B023 /* HCaptchaWebViewManager__HTML__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCaptchaWebViewManager__HTML__Tests.swift; sourceTree = "<group>"; };
 		9C766C7826CB814A00E0A592 /* HCaptchaConfig+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HCaptchaConfig+Helpers.swift"; sourceTree = "<group>"; };
-		AC5A13AF32EFE2641B30101A /* Pods-HCaptcha_RxSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_RxSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-HCaptcha_RxSwift_Example/Pods-HCaptcha_RxSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AF5369BD0117A5DA463EACA9 /* Pods_HCaptcha_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCaptcha_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4CC6777C1126E7650593DB0 /* Pods-HCaptcha_UIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_UIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HCaptcha_UIKit_Example/Pods-HCaptcha_UIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8537003ECC47117AF54DCA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DE831E3AC800884C050910DF /* Pods-HCaptcha_UIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_UIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HCaptcha_UIKit_Example/Pods-HCaptcha_UIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E605B7682D0ECBB9008EA9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E605B76C2D0ED712008EA9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E626A7FB2890568A0069D449 /* HCaptcha_SwiftUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCaptcha_SwiftUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E626A7FF2890568A0069D449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,10 +131,6 @@
 		E6A23A392CEA6D480071D531 /* HCaptcha_PassiveExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCaptcha_PassiveExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A23A4A2CEA6DA70071D531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6A23A4B2CEA6DA70071D531 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		E6A23A542CEA78430071D531 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		EE4771EFB96171863ED97253 /* Pods-HCaptcha_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HCaptcha_Tests/Pods-HCaptcha_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0C65B53B0061534EA17E10A /* Pods-HCaptcha_Objc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_Objc_Example.debug.xcconfig"; path = "Target Support Files/Pods-HCaptcha_Objc_Example/Pods-HCaptcha_Objc_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F206BAD41F8D3FEB00A25807 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = ../Cartfile; sourceTree = "<group>"; };
 		F21901D91F98D62F00D8E2C9 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		F231B3961FEC325A00F82943 /* DispatchQueue__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueue__Tests.swift; sourceTree = "<group>"; };
 		F231B39E1FED4A8C00F82943 /* HCaptchaDecoder+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HCaptchaDecoder+Helper.swift"; sourceTree = "<group>"; };
@@ -156,9 +145,7 @@
 		F2ECCF891E9FCEFE0097B199 /* HCaptchaDecoder__Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCaptchaDecoder__Tests.swift; sourceTree = "<group>"; };
 		F2ECCF8B1E9FE37C0097B199 /* mock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mock.html; sourceTree = "<group>"; };
 		F2ECCF8D1E9FE68C0097B199 /* HCaptchaWebViewManager__Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCaptchaWebViewManager__Tests.swift; sourceTree = "<group>"; };
-		F2ECCF921EA009360097B199 /* HCaptcha+Rx__Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HCaptcha+Rx__Tests.swift"; sourceTree = "<group>"; };
 		F2ECCF951EA00A5B0097B199 /* HCaptchaWebViewManager+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HCaptchaWebViewManager+Helpers.swift"; sourceTree = "<group>"; };
-		F9ED7BF8ED7CB5CA4E75F987 /* Pods-HCaptcha_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCaptcha_UITests.debug.xcconfig"; path = "Target Support Files/Pods-HCaptcha_UITests/Pods-HCaptcha_UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +208,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392544D82E8B9EB0004557DA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				392544F22E8B9F66004557DA /* Info.plist */,
+				392544D92E8B9ED6004557DA /* BaseViewController.swift */,
+				392544DE2E8B9ED8004557DA /* HCaptcha_Objc_Example-Bridging-Header.h */,
+				392544DF2E8B9F4F004557DA /* AppDelegate.swift */,
+				392544E02E8B9F4F004557DA /* Assets.xcassets */,
+				392544E52E8B9F4F004557DA /* Base.lproj */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		392544E52E8B9F4F004557DA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				392544E22E8B9F4F004557DA /* LaunchScreen.xib */,
+				392544E42E8B9F4F004557DA /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		3FB378B928AB7C6EDFA21696 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,7 +250,6 @@
 				F28FAC9D200E425600E14987 /* HCaptcha_UITests */,
 				E626A80B289058B70069D449 /* Packages */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				61C8B559C1E1C131025EE4EB /* Pods */,
 				3FB378B928AB7C6EDFA21696 /* Frameworks */,
 				607FACD11AFB9204008FA782 /* Products */,
 			);
@@ -261,43 +269,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* RxSwift-Example */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-			);
-			path = "RxSwift-Example";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				62C1DD0E80E9920845E5DA51 /* HCaptcha.podspec */,
-				F206BAD41F8D3FEB00A25807 /* Cartfile */,
 				0A2D0E5B4C6E445BF971488B /* README.md */,
 				C8537003ECC47117AF54DCA9 /* LICENSE */,
 				F21901D91F98D62F00D8E2C9 /* CHANGELOG.md */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		61C8B559C1E1C131025EE4EB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15CF87684AC2F129E32CC71E /* Pods-HCaptcha_Example.debug.xcconfig */,
-				7CAE52D12DDE8FC56C961E7D /* Pods-HCaptcha_Example.release.xcconfig */,
-				EE4771EFB96171863ED97253 /* Pods-HCaptcha_Tests.debug.xcconfig */,
-				15BC45B776D109210F2FC581 /* Pods-HCaptcha_Tests.release.xcconfig */,
-				F9ED7BF8ED7CB5CA4E75F987 /* Pods-HCaptcha_UITests.debug.xcconfig */,
-				086C3E9D592A52524FB6CA89 /* Pods-HCaptcha_UITests.release.xcconfig */,
-				F0C65B53B0061534EA17E10A /* Pods-HCaptcha_Objc_Example.debug.xcconfig */,
-				8453AB7DC2F84E620BCFA704 /* Pods-HCaptcha_Objc_Example.release.xcconfig */,
-				C4CC6777C1126E7650593DB0 /* Pods-HCaptcha_UIKit_Example.debug.xcconfig */,
-				DE831E3AC800884C050910DF /* Pods-HCaptcha_UIKit_Example.release.xcconfig */,
-				1CF662E463D56A0421D8A84A /* Pods-HCaptcha_RxSwift_Example.debug.xcconfig */,
-				AC5A13AF32EFE2641B30101A /* Pods-HCaptcha_RxSwift_Example.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		E626A7FC2890568A0069D449 /* SwiftUI-Example */ = {
@@ -339,28 +318,14 @@
 			path = "UIKit-Example";
 			sourceTree = "<group>";
 		};
-		E6A23A182CEA20130071D531 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				607FACDC1AFB9204008FA782 /* Assets.xcassets */,
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				E6A23A542CEA78430071D531 /* BaseViewController.swift */,
-				E605B7682D0ECBB9008EA9C8 /* Info.plist */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
 		E6A23A2B2CEA32E80071D531 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
 				E6A23A0D2CEA1AC50071D531 /* UIKit-Example */,
-				607FACD21AFB9204008FA782 /* RxSwift-Example */,
 				E626A7FC2890568A0069D449 /* SwiftUI-Example */,
 				E6A23A4C2CEA6DA70071D531 /* Passive-Example */,
 				E65145E92779AE830079668A /* ObjC-Example */,
-				E6A23A182CEA20130071D531 /* Shared */,
+				392544D82E8B9EB0004557DA /* Shared */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -388,7 +353,6 @@
 			children = (
 				F2ECCF8B1E9FE37C0097B199 /* mock.html */,
 				F2ECCF821E9FC4AC0097B199 /* Core */,
-				F2ECCF911EA009220097B199 /* RxSwift */,
 				F2ECCF941EA00A4A0097B199 /* Helpers */,
 				F2ECCF7A1E9FC47B0097B199 /* Info.plist */,
 			);
@@ -408,14 +372,6 @@
 				F2AE8611204F3430002E28D7 /* HCaptchaResult__Tests.swift */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		F2ECCF911EA009220097B199 /* RxSwift */ = {
-			isa = PBXGroup;
-			children = (
-				F2ECCF921EA009360097B199 /* HCaptcha+Rx__Tests.swift */,
-			);
-			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		F2ECCF941EA00A4A0097B199 /* Helpers */ = {
@@ -598,6 +554,7 @@
 					};
 					E65145E72779AE830079668A = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1630;
 						ProvisioningStyle = Automatic;
 					};
 					E6A239E52CEA15E50071D531 = {
@@ -649,10 +606,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F206BAD51F8D3FEB00A25807 /* Cartfile in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Assets.xcassets in Resources */,
-				E6514610277A09C60079668A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +613,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A23A2E2CEA48C90071D531 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,9 +620,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E651460C2779E9D30079668A /* LaunchScreen.xib in Resources */,
-				E6A23A2D2CEA48BA0071D531 /* Assets.xcassets in Resources */,
 				E651460F277A09C20079668A /* Main.storyboard in Resources */,
+				392544E62E8B9F4F004557DA /* Assets.xcassets in Resources */,
+				392544E72E8B9F4F004557DA /* Main.storyboard in Resources */,
+				392544F42E8B9F66004557DA /* Info.plist in Resources */,
+				392544E82E8B9F4F004557DA /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,9 +632,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A23A1A2CEA29F40071D531 /* Assets.xcassets in Resources */,
-				E6A23A1B2CEA29FC0071D531 /* Main.storyboard in Resources */,
-				E6A23A2C2CEA3AEA0071D531 /* LaunchScreen.xib in Resources */,
+				392544F32E8B9F66004557DA /* Info.plist in Resources */,
+				392544EF2E8B9F4F004557DA /* Assets.xcassets in Resources */,
+				392544F02E8B9F4F004557DA /* Main.storyboard in Resources */,
+				392544F12E8B9F4F004557DA /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,7 +643,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A23A512CEA6DDB0071D531 /* Assets.xcassets in Resources */,
+				392544F52E8B9F66004557DA /* Info.plist in Resources */,
+				392544EA2E8B9F4F004557DA /* Assets.xcassets in Resources */,
+				392544EB2E8B9F4F004557DA /* Main.storyboard in Resources */,
+				392544EC2E8B9F4F004557DA /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,9 +894,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				E6A23A552CEA784A0071D531 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,6 +903,7 @@
 			files = (
 				E626A8002890568A0069D449 /* ContentView.swift in Sources */,
 				E626A80A289056E00069D449 /* App.swift in Sources */,
+				392544DC2E8B9ED6004557DA /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,7 +912,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E65145F22779AE830079668A /* ViewController.m in Sources */,
+				392544DB2E8B9ED6004557DA /* BaseViewController.swift in Sources */,
 				E65145EC2779AE830079668A /* AppDelegate.m in Sources */,
+				392544E92E8B9F4F004557DA /* AppDelegate.swift in Sources */,
 				E65145FD2779AE850079668A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -965,9 +923,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A23A192CEA22190071D531 /* AppDelegate.swift in Sources */,
+				392544EE2E8B9F4F004557DA /* AppDelegate.swift in Sources */,
 				E6A23A0E2CEA1AC50071D531 /* ViewController.swift in Sources */,
-				E6A23A562CEA784A0071D531 /* BaseViewController.swift in Sources */,
+				392544DA2E8B9ED6004557DA /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,8 +933,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392544ED2E8B9F4F004557DA /* AppDelegate.swift in Sources */,
 				E6A23A4D2CEA6DA70071D531 /* ContentView.swift in Sources */,
 				E6A23A4E2CEA6DA70071D531 /* App.swift in Sources */,
+				392544DD2E8B9ED6004557DA /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,7 +961,6 @@
 				E64F97912895CD250044257C /* HCaptcha__Bench.swift in Sources */,
 				F231B39F1FED4A8C00F82943 /* HCaptchaDecoder+Helper.swift in Sources */,
 				F2E2685E1F7AEE3400CD876D /* HCaptcha__Tests.swift in Sources */,
-				F2ECCF931EA009360097B199 /* HCaptcha+Rx__Tests.swift in Sources */,
 				F288E9451F9537760018688D /* HCaptchaError+Equatable.swift in Sources */,
 				F2ECCF8A1E9FCEFE0097B199 /* HCaptchaDecoder__Tests.swift in Sources */,
 				9C766C7926CB814A00E0A592 /* HCaptchaConfig+Helpers.swift in Sources */,
@@ -1041,20 +1000,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		392544E22E8B9F4F004557DA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				392544E12E8B9F4F004557DA /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		392544E42E8B9F4F004557DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392544E32E8B9F4F004557DA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1170,7 +1129,6 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CF662E463D56A0421D8A84A /* Pods-HCaptcha_RxSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -1195,7 +1153,6 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC5A13AF32EFE2641B30101A /* Pods-HCaptcha_RxSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -1301,13 +1258,13 @@
 		};
 		E65145FE2779AE850079668A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0C65B53B0061534EA17E10A /* Pods-HCaptcha_Objc_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
@@ -1336,19 +1293,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flaviocaetano.HCaptcha-Objc-Example.HCaptcha-Objc-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/HCaptcha_Objc_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E65145FF2779AE850079668A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8453AB7DC2F84E620BCFA704 /* Pods-HCaptcha_Objc_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
@@ -1375,13 +1335,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flaviocaetano.HCaptcha-Objc-Example.HCaptcha-Objc-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/HCaptcha_Objc_Example-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		E6A239F72CEA15E80071D531 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4CC6777C1126E7650593DB0 /* Pods-HCaptcha_UIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -1425,7 +1386,6 @@
 		};
 		E6A239F82CEA15E80071D531 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE831E3AC800884C050910DF /* Pods-HCaptcha_UIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -1553,7 +1513,6 @@
 		};
 		F28FACA3200E425600E14987 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9ED7BF8ED7CB5CA4E75F987 /* Pods-HCaptcha_UITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1582,7 +1541,6 @@
 		};
 		F28FACA4200E425600E14987 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 086C3E9D592A52524FB6CA89 /* Pods-HCaptcha_UITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1609,7 +1567,6 @@
 		};
 		F2ECCF7E1E9FC47B0097B199 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE4771EFB96171863ED97253 /* Pods-HCaptcha_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1634,7 +1591,6 @@
 		};
 		F2ECCF7F1E9FC47B0097B199 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15BC45B776D109210F2FC581 /* Pods-HCaptcha_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
