@@ -8,7 +8,6 @@
 
 import AppSwizzle
 @testable import HCaptcha
-import RxSwift
 import XCTest
 
 
